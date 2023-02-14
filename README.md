@@ -64,6 +64,4 @@ Provide an overview of the directory structure(work) and files
 > docker run -v <local folder>:<docker folder> gl_hackathon_grp_14_submission:latest -e GRANT_SUDO=yes -e CHOWN_HOME=yes --user root  
  Example : docker run -v /home/krishna/hackathon/app_output:/localuser gl_hackathon_grp_14_submission:latest -e GRANT_SUDO=yes -e CHOWN_HOME=yes -e CHOWN_HOME_OPTS='-R' --user root
 
-## About
 
-This assignment is done by hackathon group 14 by KrishnaMohan Seelam, Mahesh NVS, Tarique Yusuf.
